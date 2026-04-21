@@ -1,7 +1,7 @@
 import React from 'react'
 import LoginLeftSide from './LoginLeftSide'
 import { Link } from 'react-router-dom'
-import { ArrowLeftIcon, EyeIcon, EyeOffIcon } from 'lucide-react'
+import { ArrowLeftIcon, EyeIcon, EyeOffIcon, Loader2Icon } from 'lucide-react'
 import { useState } from 'react'
 
 const LoginForm = ({ role, tittle, subtittle }) => {
